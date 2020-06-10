@@ -1,0 +1,292 @@
+var age = 12
+undefined
+
+age :
+12
+
+var numberofSiblings = 1+3
+var numberofCandies = 8;
+numberofCandies / numberofSiblings;
+2
+
+35674720+7469290
+43144010
+
+
+var secondsInAMinute = 60;
+var minutesInAnHour = 60;
+var secondsInAnHour = secondsInAMinute *minutesInAnHour;
+secondsInAnHour;
+3600
+var hourInADay = 24;
+var secondsInADay = secondsInAnHour * hourInADay;
+secondsInADay
+86400
+var age = 13;
+age * secondsInAYear
+409968000
+
+var daysInAYear = 365;
+var secondsInAYear = secondsInADay * daysInAYear;
+secondsInAYear;
+31536000
+r highfives = 0
+++highfives; 
+1
+++highfives;
+2
+--highfives
+1
+highfives++
+1
+highfives--
+2
+var highfives = 0
+highfives++
+0
+highfives--
+1
+highfives++
+var score = 10
+score -=4
+6
+score +=21
+27"Helow world"
+"Helow world"
+var myThing = 5 
+myThing = "this is my string"
+"this is my string"
+
+
+
+
+
+var numberNine = 9;
+var stringNine = "9"
+numberNine + stringNine
+"99"
+numberNine + numberNine 
+18
+stringNine + stringNine 
+"99"
+var greeting = "hello";
+var myName = "pranav";
+greeting + myName;
+"hellopranav
+"hugdfewhyguhdhfbwehygfhgewrvfhkcyuguoserhfbheygfyhwbfhbdksacygihewf".length;
+67
+
+var java = "java"
+undefined
+java .length
+4
+var script = "script"
+script.length
+6
+var javascript = java + script
+javascript.length
+10
+
+var myName = "narpav"
+myName [3]
+"p"
+myName [2]
+"r"
+myName [1]
+"a"
+myName [0]
+"n"
+myName [4]
+"a"
+myName [5]
+"v"
+var longString = " my long string is long ";
+longString.slice(3, 14)
+" long strin"
+var longstring = "my long string is long";
+longstring.slice(3);
+"long string is long"
+"Hello there,how are you warking the".toUpperCase();
+"HELLO THERE,HOW ARE YOU WARKING THE"
+"help,help,help,help".toUpperCase();
+"HELP,HELP,HELP,HELP"
+"HELP,HELP,HELP,HELP".toLowerCase();
+"help,help,help,help"
+var sillyString = "HeLlOw ArE YoU"
+var lowerString = sillyString.toLowerCase(); var firstCharacter = lowerString[0];
+var firstCharacterUpper = firstCharacter.toUpperCase();
+var restOfString = lowerString.slice(1);
+firstCharacterUpper + restOfString;
+"Hellow are you"
+var pranavIsGood = true;
+pranavIsGood;
+true
+var hadShower = true;
+var hasBackPack = false;
+hadShower && hasBackPack;
+false
+var hasApple = false;
+var hasMango = true;
+hasApple || hasMango
+true
+var isWeekEnd = true;
+var takeABath = !isWeekEnd
+takeABath;
+false
+
+var isAWeekEnd = false; 
+var hasAApple = true;
+var hasAOrange = false;
+var hadAShower = true;
+var shoudGoToTheSchool = !isAWeekEnd && hadAShower && (hasAApple || hasAOrange);
+shoudGoToTheSchool;
+true
+var height = 65;
+var heightRistriction = 60;
+height > heightRistriction;
+true
+var mySecretNumber = 10;
+var chicoGuess = 5;
+mySecretNumber === chicoGuess;
+false
+var stringNumber = "5";
+var actualNumber = 5;
+stringNumber == actualNumber;
+true
+
+
+
+
+
+
+// draw as many cats as you want
+var drawCats =  function (howManyTimes){
+for (var i = 0; i < howManyTimes; i++){
+console.log(i + " =^.^=");
+}
+};
+drawCats(10); // youcna poiuytrewqasdfghjjklmnbvcxz
+VM734:4 0 =^.^=
+VM734:4 1 =^.^=
+VM734:4 2 =^.^=
+VM734:4 3 =^.^=
+VM734:4 4 =^.^=
+VM734:4 5 =^.^=
+VM734:4 6 =^.^=
+VM734:4 7 =^.^=
+VM734:4 8 =^.^=
+VM734:4 9 =^.^=
+var myFruites  = [
+"mango",
+"apple",
+"orange",
+"banana",
+"cherry",
+"watermelon",
+"strawberry",
+];
+myFruites[1]
+"apple"
+myFruites[0] = "plum";
+"plum"
+myFruites
+ ["plum", "apple", "orange", "banana", "cherry", "watermelon", "strawberry"]
+
+var myObjects = [3456, "radhika", ["pranav", "3", "9078643"], 100];
+myObjects[0]
+3456
+myObjects[1]
+"radhika"
+myObjects[2][0]
+"pranav"
+myObjects[2][1]
+"3"
+myObjects[2][2]
+"9078643"
+myObjects[3]
+100
+
+
+
+var pranav = ["legend", "player", "coder"]
+pranav.length
+3
+pranav[pranav.length - 1]
+"coder"
+
+var cat = {
+legs: 3,
+hair: "brown",
+colour: "black",
+};
+
+undefined
+cat ["hair"]
+"brown"
+cat 
+{legs: 3, hair: "brown", colour: "black"}
+var dog = { name:"pancake", legs:3, colour:"brown"};
+var donkey = { name:"radhika", legs:4, colour:"brown"};
+Object.keys(dog)
+(3) ["name", "legs", "colour"]
+var cat = {}
+cat["name"] = "doogy"
+cat["legs"] = 4
+cat ["colour"] = "white"
+cat;
+{name: "doogy", legs: 4, colour: "white"}
+var cat = {};
+cat.legs = 4
+cat.colour = "white"
+cat.name = "blacky"
+cat
+{legs: 4, colour: "white", name: "blacky"}
+
+var pranav = {name: "pranav", age: 13, luckyNumber: [1, 3, 5, 6, 9] };
+var radhika = {name: "radhika", age: 15, luckyNumber: [2, 4, 7, 3, 6] };
+var rasika = {name: "rasika", age: 7, luckeyNumber: [12, 21, 20, 23, 10] };
+var frends = [pranav, radhika, rasika]
+frends[1]
+{name: "radhika", age: 15, luckyNumber: Array(5)}
+var owedMoney = {};
+owedMoney["jimmy"] = 5;
+owedMoney["anana"] = 13;
+owedMoney["pranav"] = 2000000; 
+owedMoney["pranav"];
+2000000
+owedMoney["pranav"] +=389
+owedMoney["pranav"]
+2000389
+var movies = {
+"home": {
+relesingDate: 2000,
+type: "black and white", 
+format: "DVD"
+},
+"ironman": {
+relesingDate: 2001,
+type: "colour",
+format: "DVD"
+}
+};
+var findingH = movies["home"];
+findingH.type;
+"black and white"
+var movies = {
+"home": {
+relesingDate: 2000,
+type: "black and white", 
+format: "DVD"
+},
+"ironman": {
+relesingDate: 2001,
+type: "colour",
+format: "DVD"
+}
+};
+var findingH = movies["home"];
+findingH.type;
+"black and white"
+Object.keys(movies);\
+Object.keys(movies);
+(2) ["home", "ironman"]
